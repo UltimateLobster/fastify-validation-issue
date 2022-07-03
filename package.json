@@ -1,0 +1,27 @@
+{
+  "name": "fastify-mem-leak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node src/index.ts"
+  },
+  "author": "Zach Tindall",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "1.2.207",
+    "@swc/jest": "0.2.21",
+    "@tsconfig/node16": "1.0.3",
+    "@types/jest": "28.1.3",
+    "@types/node": "^16.11.10",
+    "jest": "28.1.1",
+    "ts-node": "10.8.1",
+    "typescript": "4.7.4"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.24.7",
+    "fastify": "^4.2.0",
+    "reflect-metadata": "^0.1.13"
+  }
+}
